@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ealush/emoji-picker-react.git"
+    "url": "https://github.com/uponcommerce/emoji-picker-react.git"
   },
   "scripts": {
     "start": "tsdx watch",
@@ -46,7 +46,7 @@
     "singleQuote": true
   },
   "name": "emoji-picker-react",
-  "author": "ealush",
+  "author": "uponcommerce",
   "module": "dist/emoji-picker-react.esm.js",
   "size-limit": [
     {
