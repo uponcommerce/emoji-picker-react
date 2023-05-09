@@ -11,13 +11,13 @@ An emoji picker component for React applications.
 ## Installation
 
 ```
-npm install emoji-picker-react
+npm install @uponcommerce/emoji-picker-react
 ```
 
 ## Usage:
 
 ```jsx
-import EmojiPicker from 'emoji-picker-react';
+import EmojiPicker from '@uponcommerce/emoji-picker-react';
 
 function App() {
   return (
@@ -90,14 +90,14 @@ The following props are accepted by them picker:
   The `Theme` enum can be imported from the package.
 
   ```ts
-  import { Theme } from 'emoji-picker-react';
+  import { Theme } from '@uponcommerce/emoji-picker-react';
   ```
 
 - `emojiStyle`: `EmojiStyle` - The emoji style to use. Can be either `apple`, `google`, `facebook`, `twitter` or `native`. Default is `apple`.
   The `EmojiStyle` enum can be imported from the package.
 
   ```ts
-  import { EmojiStyle } from 'emoji-picker-react';
+  import { EmojiStyle } from '@uponcommerce/emoji-picker-react';
   ```
 
 * `autoFocusSearch`: `boolean` - Whether to focus the search input on mount. Defaults to `true`.
@@ -116,7 +116,7 @@ The following props are accepted by them picker:
 The skin tones typescript enum can be imported directly from the package:
 
 ```ts
-import { SkinTones } from 'emoji-picker-react';
+import { SkinTones } from '@uponcommerce/emoji-picker-react';
 ```
 
 - `searchDisabled`: `boolean` - Whether to disable the search input. Defaults to `false`. When disabled, the skin tone picker will be shown in the preview component.
@@ -126,7 +126,7 @@ import { SkinTones } from 'emoji-picker-react';
 - `skinTonePickerLocation`: `SkinTonePickerLocation` - The location of the skin tone picker. Can be either `SEARCH` or `PREVIEW`. Defaults to `SEARCH`. The `SkinTonePickerLocation` enum can be imported from the package.
 
   ```ts
-  import { SkinTonePickerLocation } from 'emoji-picker-react';
+  import { SkinTonePickerLocation } from '@uponcommerce/emoji-picker-react';
   ```
 
 - `previewConfig`: `PreviewConfig` - Full control over the Preview component, either to show/hide it, change the default emoji or the default caption.
@@ -173,7 +173,7 @@ import { SkinTones } from 'emoji-picker-react';
   The `SuggestionMode` enum can be imported from the package.
 
   ```ts
-  import { SuggestionMode } from 'emoji-picker-react';
+  import { SuggestionMode } from '@uponcommerce/emoji-picker-react';
   ```
 
 - `emojiVersion`: `string` - Allows displaying emojis up to a certain version for compatibility. The passed version will be parsed as a float and each emoji will be tested against it. Common values are:
@@ -230,7 +230,7 @@ The picker exports an `Emoji` component. The emoji component is the same used wi
 | `getEmojiUrl` | Function     | -                  | Allows to customize the emoji url and provide your own image host.                          |
 
 ```js
-import { Emoji, EmojiStyle } from 'emoji-picker-react';
+import { Emoji, EmojiStyle } from '@uponcommerce/emoji-picker-react';
 
 export function MyApp() {
   return (
@@ -257,7 +257,7 @@ import dynamic from 'next/dynamic';
 
 const Picker = dynamic(
   () => {
-    return import('emoji-picker-react');
+    return import('@uponcommerce/emoji-picker-react');
   },
   { ssr: false }
 );
