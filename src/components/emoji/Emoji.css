@@ -8,7 +8,7 @@
   justify-content: center;
   max-width: var(--epr-emoji-fullsize);
   max-height: var(--epr-emoji-fullsize);
-  border-radius: 8px;
+  border-radius: 0px;
   overflow: hidden;
 }
 

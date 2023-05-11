@@ -14,7 +14,7 @@
   padding: 5px;
   align-items: flex-end;
   flex-direction: column;
-  border-radius: 6px;
+  border-radius: 0px;
   border: 1px solid var(--epr-bg-color);
 }
 
@@ -46,7 +46,7 @@
 .EmojiPickerReact .epr-skin-tones .epr-tone {
   display: block;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 0px;
   height: var(--epr-skin-tone-size);
   width: var(--epr-skin-tone-size);
   position: absolute;
@@ -74,7 +74,7 @@
   left: -2px;
   right: -2px;
   bottom: -2px;
-  border-radius: 5px;
+  border-radius: 0px;
   border: 1px solid var(--epr-active-skin-tone-indicator-border-color);
 }
 
